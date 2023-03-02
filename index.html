@@ -1,0 +1,2471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="assets/css/app.min.css" media="all">
+  <link rel="stylesheet" href="assets/css/plugins.min.css" media="all">
+  <link rel="stylesheet" href="assets/css/ie.min.css" media="all">
+  <link rel="icon" href="assets/img/favicon/favicon-16x16.png">
+  <title>WinStore</title>
+</head>
+
+<body>
+  <main class="page-wrap">
+    <header>
+      <div class="container-fluid nav-top-bg">
+        <div class="container">
+          <div class="main-nav">
+            <div class="hamburger-menu-mob">
+              <div id="hamburger-menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <div class="nav-logo">
+              <a href="/">
+                <img src="assets/img/winstore-logo.svg" alt="Win Store Logo" loading="lazy" width="170" height="48">
+              </a>
+            </div>
+            <div class="nav-form">
+              <form action="/" method="GET">
+                <div class="form-group form-ddn-wrapper">
+                  <div class="form-ddn-placeholder">
+                    <span>All categories</span>
+                    <span class="ddn-indicator">
+                      <img src="assets/img/down-arrow.webp" alt="Down arrow" loading="lazy" width="14" height="8">
+                    </span>
+                  </div>
+                  <ul class="form-ddn-list">
+                    <li>Home</li>
+                    <li>Easy Monthly Installments</li>
+                    <li>Shop by Brands</li>
+                    <li>Become a Vendor</li>
+                  </ul>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search for products" name="search">
+                  <button type="submit" aria-label="Search" id="Search" role="Search" class="search-icon">
+                    <i class="icon-search"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div class="order-details">
+              <p>
+                <a href="#">
+                  <span class="icon-set">
+                    <i class="icon-tracking"></i>
+                  </span>
+                  <span class="icon-text">Orders & Tracking</span>
+                </a>
+              </p>
+              <p>
+                <a href="#">
+                  <span class="icon-set">
+                    <img src="assets/img/flag.svg" alt="Flag icon" loading="lazy" width="25" height="17">
+                  </span>
+                  <span class="icon-text">Delivery within Pakistan</span>
+                </a>
+              </p>
+              <p>
+                <a href="javascript://">
+                  <span class="icon-set small-icon">
+                    <i class="icon-return"></i>
+                  </span>
+                  <span class="icon-text">Return</span>
+                </a>
+              </p>
+            </div>
+            <div class="call-us-now">
+              <p>Call Us Now</p>
+              <p>
+                <a href="tel:+011 5827918">
+                  <span class="icon-set">
+                    <i class="icon-support"></i>
+                  </span>
+                  <span class="icon-text">+011 5827918</span>
+                </a>
+              </p>
+              <p>
+                <a href="javascript://" class="signin-icon">
+                  <span class="icon-text">Sign In</span>
+                </a>
+              </p>
+            </div>
+            <div class="user-like-cart">
+              <div>
+                <a href="javascript://" class="user-icon" aria-label="User icon">
+                  <i class="icon-user"></i>
+                </a>
+              </div>
+              <div>
+                <a href="#" aria-label="wish list icon">
+                  <i class="icon-wish-list"></i>
+                </a>
+              </div>
+              <div>
+                <a href="Javascript://" class="cart-icon">
+                  <i class="icon-cart"></i>
+                  <span class="cart-count">3</span>
+                  <span class="cart-text">Cart</span>
+                </a>
+              </div>
+            </div>
+          </div><!-- Profile dropdown box -->
+          <div class="profile-box">
+            <div class="profile-details">
+              <div class="profile-image">
+                <img src="assets/img/profile-picture.jpg" alt="User icon" loading="lazy" width="69" height="69">
+              </div>
+              <div class="profile-content">
+                <h4>Alina David</h4>
+                <h4>A short profile discription</h4>
+                <a href="javascript://" class="logout-btn">Logout</a>
+              </div>
+              <p class="profile-close">
+                <a href="javascript://" aria-label="Profile close">
+                  <i class="icon-x-square"></i>
+                </a>
+              </p>
+            </div>
+            <div class="profile-setings-support">
+              <div class="profile-box-links profile-settings">
+                <a href="javascript://">
+                  <i class="icon-user"></i>
+                  <p>Personal Settings</p>
+                </a>
+              </div>
+              <div class="profile-box-links winstore-settings">
+                <p class="profile-link-title">Win Store</p>
+                <a href="javascript://">
+                  <i class="icon-settings"></i>
+                  <p>Org Settings</p>
+                </a>
+                <a href="javascript://">
+                  <i class="icon-billing"></i>
+                  <p>Billing</p>
+                </a>
+              </div>
+              <div class="profile-box-links winstore-settings">
+                <p class="profile-link-title">Win Store</p>
+                <a href="javascript://">
+                  <i class="icon-help-circle"></i>
+                  <p>Product Base</p>
+                </a>
+                <a href="javascript://">
+                  <i class="icon-mail"></i>
+                  <p>Contact Support</p>
+                </a>
+              </div>
+              <div class="profile-box-links logout-link">
+                <a href="javascript://">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M9 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H9" stroke="#C4C4C4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M16 17L21 12L16 7" stroke="#7A7A7A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M21 12H9" stroke="#C4C4C4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                  <p>Logout</p>
+                </a>
+              </div>
+            </div>
+          </div><!-- Profile dropdown box ends--><!-- cartList dropdown box -->
+          <div class="cartList-box">
+            <div class="cartList-header">
+              <div class="cartList-header-text">
+                <p class="cartlist-icon">
+                  <img src="assets/img/shopping-cart.svg" alt="Shoping cart Icon" loading="lazy" width="24" height="25">
+                  <span class="cart-count">3</span>
+                  <span class="cart-text">Cart</span>
+                </p>
+                <p>You have 03 Items in List</p>
+              </div>
+              <h3>Cart List</h3>
+              <p class="cart-close">
+                <a href="javascript://" aria-label="Cart close">
+                  <i class="icon-x-square"></i>
+                </a>
+              </p>
+            </div>
+            <div class="cartList-body">
+              <div class="cart-item">
+                <div class="cart-item-image">
+                  <a href="javascrip://">
+                    <img src="assets/img/products/drone.webp" alt="Cart item" loading="lazy" width="90" height="73">
+                  </a>
+                </div>
+                <div class="cart-item-details">
+                  <a href="javascrip://">
+                    <p>Nintendo Switch Console</p>
+                    <p>QTY: 1</p>
+                    <p>Rs.<span>65,200</span>
+                    </p>
+                    <p class="delete-icon">
+                      <a href="javascript://" aria-label="Delete">
+                        <i class="icon-trash"></i>
+                      </a>
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="cart-item">
+                <div class="cart-item-image">
+                  <a href="javascrip://">
+                    <img src="assets/img/products/sec-cam.webp" alt="Cart item" loading="lazy" width="90" height="73">
+                  </a>
+                </div>
+                <div class="cart-item-details">
+                  <a href="javascrip://">
+                    <p>Nintendo Switch Console</p>
+                    <p>QTY: 1</p>
+                    <p>Rs.<span>65,200</span>
+                    </p>
+                    <p class="delete-icon">
+                      <a href="javascript://" aria-label="Delete">
+                        <i class="icon-trash"></i>
+                      </a>
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="cart-item">
+                <div class="cart-item-image">
+                  <a href="javascrip://">
+                    <img src="assets/img/products/headset.webp" alt="Cart item" loading="lazy" width="90" height="73">
+                  </a>
+                </div>
+                <div class="cart-item-details">
+                  <a href="javascrip://">
+                    <p>Nintendo Switch Console</p>
+                    <p>QTY: 1</p>
+                    <p>Rs.<span>65,200</span>
+                    </p>
+                    <p class="delete-icon">
+                      <a href="javascript://" aria-label="Delete">
+                        <i class="icon-trash"></i>
+                      </a>
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- cartList dropdown box ends--><!-- sign in form starts -->
+          <div class="signin-form-box">
+            <div class="form-img-bg">
+              <div>
+                <a href="/">
+                  <img src="assets/img/winstore-logo.svg" alt="WinStore logo" loading="lazy" width="170" height="48">
+                </a>
+              </div>
+              <h2>Wlcome to Win Store.com</h2>
+              <div class="signin-form-div">
+                <form>
+                  <div class="form-group">
+                    <span class="input-icon">
+                      <img src="assets/img/email-icon.webp" alt="Email icon" loading="lazy" width="39" height="37">
+                    </span>
+                    <input type="email" class="form-control" placeholder="Email Address">
+                  </div>
+                  <div class="form-group">
+                    <span class="input-icon">
+                      <img src="assets/img/lock.webp" alt="Email icon" loading="lazy" width="39" height="37">
+                    </span>
+                    <input type="email" class="form-control" placeholder="Password">
+                  </div>
+                  <div class="rememberme-flex">
+                    <div class="form-group rememberme-div text-left">
+                      <input type="checkbox" value="lsRememberMe" id="rememberMe">
+                      <label for="rememberMe" class="rememberMe">Remember me</label>
+                    </div>
+                    <div class="form-group rememberme-div">
+                      <p>
+                        <a href="javascript://">Forget password</a>
+                      </p>
+                    </div>
+                  </div>
+                  <button type="submit" class="btn btn-submit" aria-label="Sign in">Sign in</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg sub-nav">
+        <div class="container"><!-- <a class="navbar-brand" href="#">Navbar</a> -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                <path stroke="rgba(0, 0, 0, 0.5)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22" style="stroke: #fff;" />
+              </svg>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto nav-left-item">
+              <li class="nav-item active">
+                <a class="nav-link brouse-by-category" href="javascript://" aria-label="Brouse By
+                    Category">
+                  <span>
+                    <img src="assets/img/hamburger-menu.svg" alt="Hamburger icon" loading="lazy" width="14" height="13">
+                  </span>Brouse By Category
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" aria-label="Nav links">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" aria-label="Nav links">Easy Monthly Installments</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" aria-label="Nav links">Shop by Brands</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" aria-label="Nav links">Become a Vendor</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav mr-auto right-sm-item">
+              <li class="nav-item">
+                <a class="nav-link" href="#" aria-label="Nav links" target="_blank">
+                  <i class="icon-fb" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" aria-label="Nav links" target="_blank">
+                  <i class="icon-twitter" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" aria-label="Nav links" target="_blank">
+                  <i class="icon-instagram" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link linkedin" href="#" aria-label="Nav links" target="_blank">
+                  <i class="icon-linkedin" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="nav-main-dropdowns">
+        <div class="container-width">
+          <div class="nav-main-dropdowns--item-sec">
+            <div class="nav-main-dropdowns--item">
+              <ul class="main-dropdown-ul">
+                <li>
+                  <a href="javascript://" aria-label="Nav sub links" data-url="#electronics-ddp">Electronics <span>
+                      <i class="icon-down-arrow"></i>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript://" aria-label="Nav sub links" data-url="#fashiom-ddp">Fashion <span>
+                      <i class="icon-down-arrow"></i>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript://" aria-label="Nav sub links" data-url="#home-appliances-ddp">Home Appliances <span>
+                      <i class="icon-down-arrow"></i>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript://" aria-label="Nav sub links">Babies Store & Toys <span>
+                      <i class="icon-down-arrow"></i>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript://" aria-label="Nav sub links">Win Mart <span>
+                      <i class="icon-down-arrow"></i>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript://" aria-label="Nav sub links">Home & Lifestyle <span>
+                      <i class="icon-down-arrow"></i>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript://" aria-label="Nav sub links">Automotive <span>
+                      <i class="icon-down-arrow"></i>
+                    </span>
+                  </a>
+                </li>
+              </ul>
+              <ul class="offer-dropdown-ul">
+                <li>
+                  <a href="#" aria-label="Nav sub links">Value Deals</a>
+                </li>
+                <li>
+                  <a href="#" aria-label="Nav sub links">Best Seller</a>
+                </li>
+                <li>
+                  <a href="#" aria-label="Nav sub links">New Arrivals</a>
+                </li>
+                <li>
+                  <a href="#" aria-label="Nav sub links">Deals & Promotions</a>
+                </li>
+              </ul><!-- sub item dropdowns electronics-->
+              <div class="sub-item-dropdown electronics-dropdown" id="electronics-ddp">
+                <div class="dropdown-category-sec">
+                  <p class="close-btn">
+                    <a href="#" aria-label="Close button">
+                      <i class="icon-x-circle"></i>
+                    </a>
+                  </p>
+                  <div class="dropdown-category">
+                    <p>Mobile Phones <span>
+                        <i class="icon-blue-diwn-arrow"></i>
+                      </span>
+                    </p>
+                    <ul>
+                      <li>
+                        <a href="#">Samsung Mobiles</a>
+                      </li>
+                      <li>
+                        <a href="#">Apple Mobiles</a>
+                      </li>
+                      <li>
+                        <a href="#">Infinix Mobiles</a>
+                      </li>
+                      <li>
+                        <a href="#">Vivo Mobiles</a>
+                      </li>
+                      <li>
+                        <a href="#">Oppo Mobiles</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="dropdown-category">
+                    <p>Laptops & Tablets <span>
+                        <i class="icon-blue-diwn-arrow"></i>
+                      </span>
+                    </p>
+                    <ul>
+                      <li>
+                        <a href="#">Laptops</a>
+                      </li>
+                      <li>
+                        <a href="#">Macbooks</a>
+                      </li>
+                      <li>
+                        <a href="#">Gaming Laptops</a>
+                      </li>
+                      <li>
+                        <a href="#">Used Laptops</a>
+                      </li>
+                      <li>
+                        <a href="#">Tablets</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="dropdown-category">
+                    <p>Electronic Accessories <span>
+                        <i class="icon-blue-diwn-arrow"></i>
+                      </span>
+                    </p>
+                    <ul>
+                      <li>
+                        <a href="#">DSLR Cameras</a>
+                      </li>
+                      <li>
+                        <a href="#">Digital Cameras</a>
+                      </li>
+                      <li>
+                        <a href="#">Security Cameras</a>
+                      </li>
+                      <li>
+                        <a href="#">Pre Built PC</a>
+                      </li>
+                      <li>
+                        <a href="#">Towers & Desktops</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="dropdown-category">
+                    <p>Computers & Cameras <span>
+                        <i class="icon-blue-diwn-arrow"></i>
+                      </span>
+                    </p>
+                    <ul>
+                      <li>
+                        <a href="#">Mobile Acessories</a>
+                      </li>
+                      <li>
+                        <a href="#">Camera Accessories</a>
+                      </li>
+                      <li>
+                        <a href="#">Audio</a>
+                      </li>
+                      <li>
+                        <a href="#">PC Accessories</a>
+                      </li>
+                      <li>
+                        <a href="#">Network Components</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div><!-- sub item dropdowns Fashion-->
+              <div class="sub-item-dropdown fashiom-dropdown" id="fashiom-ddp">
+                <div class="dropdown-category-sec">
+                  <p class="close-btn">
+                    <a href="#">
+                      <i class="icon-x-circle"></i>
+                    </a>
+                  </p>
+                  <div class="dropdown-category">
+                    <p>Men Store <span>
+                        <i class="icon-blue-diwn-arrow"></i>
+                      </span>
+                    </p>
+                    <ul>
+                      <li>
+                        <a href="#">Men's Clothin</a>
+                      </li>
+                      <li>
+                        <a href="#">Footwear and Acessories</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="dropdown-category">
+                    <p>Women Store <span>
+                        <i class="icon-blue-diwn-arrow"></i>
+                      </span>
+                    </p>
+                    <ul>
+                      <li>
+                        <a href="#">Women's Clothing</a>
+                      </li>
+                      <li>
+                        <a href="#">Footwear and Accessories</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="dropdown-category fashiom-image">
+                    <img src="assets/img/fashion-dropdown.webp" alt="Fashion" loading="lazy" width="300" height="176">
+                  </div>
+                </div>
+              </div><!-- sub item dropdowns Home Appliances-->
+              <div class="sub-item-dropdown home-appliances-dropdown" id="home-appliances-ddp">
+                <div class="dropdown-category-sec">
+                  <p class="close-btn">
+                    <a href="#">
+                      <i class="icon-x-circle"></i>
+                    </a>
+                  </p>
+                  <div class="dropdown-category">
+                    <p>Large Appliances <span>
+                        <i class="icon-blue-diwn-arrow"></i>
+                      </span>
+                    </p>
+                    <ul>
+                      <li>
+                        <a href="#">Washing Machines</a>
+                      </li>
+                      <li>
+                        <a href="#">Refrigerator</a>
+                      </li>
+                      <li>
+                        <a href="#">Water Dispenser</a>
+                      </li>
+                      <li>
+                        <a href="#">Ovens</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="dropdown-category">
+                    <p>Kitchen Appliances <span>
+                        <i class="icon-blue-diwn-arrow"></i>
+                      </span>
+                    </p>
+                    <ul>
+                      <li>
+                        <a href="#">Juicers, Blenders Grinders</a>
+                      </li>
+                      <li>
+                        <a href="#">Sandwich Maker</a>
+                      </li>
+                      <li>
+                        <a href="#">Cooking Range</a>
+                      </li>
+                      <li>
+                        <a href="#">Food Processors</a>
+                      </li>
+                      <li>
+                        <a href="#">Air Fryer</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="dropdown-category">
+                    <p>TV & Video Devices <span>
+                        <i class="icon-blue-diwn-arrow"></i>
+                      </span>
+                    </p>
+                    <ul>
+                      <li>
+                        <a href="#">Smart LED TV</a>
+                      </li>
+                      <li>
+                        <a href="#">LED Television</a>
+                      </li>
+                      <li>
+                        <a href="#">Projectors</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="dropdown-category">
+                    <p>Air Conditioner <span>
+                        <i class="icon-blue-diwn-arrow"></i>
+                      </span>
+                    </p>
+                    <ul>
+                      <li>
+                        <a href="#">Inverter AC</a>
+                      </li>
+                      <li>
+                        <a href="#">Non Inverter ACs</a>
+                      </li>
+                      <li>
+                        <a href="#">Floor Standing</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="nav-main-dropdowns--help">
+              <h4>Help & Settings</h4>
+              <ul>
+                <li>
+                  <a href="#" aria-label="Your account">Your Account</a>
+                </li>
+                <li>
+                  <a href="#" aria-label="Customer Service">Customer Service</a>
+                </li>
+                <li>
+                  <a href="#" aria-label="Sign in">Sign In</a>
+                </li>
+              </ul>
+              <p>
+                <a href="#" aria-label="Close">
+                  <i class="icon-x-circle"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-nav">
+        <ul id="menu">
+          <li>
+            <a href="javascript://" class="brouse_by_category">Brouse By Category <span>
+                <img src="assets/img/down-arrow.webp" alt="Down arrow" loading="lazy" width="14" height="8">
+              </span>
+            </a>
+            <ul class="nav-dropdown-set1">
+              <li>
+                <a href="javascript://" data-url="#electronics-ddp">Electronics</a>
+              </li>
+              <li>
+                <a href="javascript://" data-url="#fashiom-ddp">Fashion</a>
+              </li>
+              <li>
+                <a href="javascript://" data-url="#home-appliances-ddp">Home Appliances</a>
+              </li>
+              <li>
+                <a href="javascript://">Babies Store & Toys</a>
+              </li>
+              <li>
+                <a href="javascript://">Win Mart</a>
+              </li>
+              <li>
+                <a href="javascript://">Home & Lifestyle</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript://">Home</a>
+          </li>
+          <li>
+            <a href="javascript://">Easy Monthly Installments</a>
+          </li>
+          <li>
+            <a href="javascript://">Shop by Brands</a>
+          </li>
+          <li>
+            <a href="javascript://">Become a Vendor</a>
+          </li>
+          <li>
+            <a href="javascript://">Orders & Tracking</a>
+          </li>
+          <li>
+            <a href="javascript://">Delivery within Pakistan</a>
+          </li>
+          <li>
+            <a href="javascript://">Return</a>
+          </li>
+          <li>
+            <a href="javascript://">Sign In</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <section id="slider" class="banner-slider-sec">
+      <div class="owl-carousel owl-theme banner-carousel" id="banner-carousel">
+        <div class="item item-01" style="background: url(assets/img/banner.webp) no-repeat right center;">
+          <div class="container">
+            <div class="banner-content">
+              <h2 class="banner-title">Shop <span>Computer & experience</span>
+              </h2>
+              <p>You cannot inspect quality into the product; it is already there.
+                <br>I am not a product of my circumstances. I am a product of my&nbsp;decisions.
+              </p>
+              <a href="javascript://" class="btn primary-btn view-more">View More</a>
+            </div>
+          </div>
+        </div>
+        <div class="item item-02" style="background: url(assets/img/banner.webp) no-repeat right center;">
+          <div class="container">
+            <div class="banner-content">
+              <h2 class="banner-title">Shop <span>Computer & experience</span>
+              </h2>
+              <p>You cannot inspect quality into the product; it is already there.
+                <br>I am not a product of my circumstances. I am a product of my&nbsp;decisions.
+              </p>
+              <a href="javascript://" class="btn primary-btn view-more">View More</a>
+            </div>
+          </div>
+        </div>
+        <div class="item item-03" style="background: url(assets/img/banner.webp) no-repeat right center;">
+          <div class="container">
+            <div class="banner-content">
+              <h2 class="banner-title">Shop <span>Computer & experience</span>
+              </h2>
+              <p>You cannot inspect quality into the product; it is already there.
+                <br>I am not a product of my circumstances. I am a product of my&nbsp;decisions.
+              </p>
+              <a href="javascript://" class="btn primary-btn view-more">View More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="category-carousel-sec">
+      <div class="container">
+        <div class="owl-carousel owl-theme category-carousel" id="category-carousel">
+          <div class="item">
+            <div class="category-box">
+              <a href="javascript://">
+                <img src="assets/img/category/electronics.webp" alt="Electronics" loading="lazy" width="276" height="203">
+                <div class="category-name-band">
+                  <h4>Electronics</h4>
+                  <a href="javscript://">Shop</a>
+                  <span>
+                    <img src="assets/img/polygon-1.webp" alt="Polygon" loading="lazy" width="9" height="5">
+                  </span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="category-box">
+              <a href="javascript://">
+                <img src="assets/img/category/fashion.webp" alt="Fashion" loading="lazy" width="276" height="203">
+                <div class="category-name-band">
+                  <h4>Fashion</h4>
+                  <a href="javscript://">Shop</a>
+                  <span>
+                    <img src="assets/img/polygon-1.webp" alt="Polygon" loading="lazy" width="9" height="5">
+                  </span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="category-box">
+              <a href="javascript://">
+                <img src="assets/img/category/appliances.webp" alt="Appliances" loading="lazy" width="276" height="203">
+                <div class="category-name-band">
+                  <h4>Appliances</h4>
+                  <a href="javscript://">Shop</a>
+                  <span>
+                    <img src="assets/img/polygon-1.webp" alt="Polygon" loading="lazy" width="9" height="5">
+                  </span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="category-box">
+              <a href="javascript://">
+                <img src="assets/img/category/babies-store.webp" alt="Babies Store" loading="lazy" width="276" height="203">
+                <div class="category-name-band">
+                  <h4>Babies Store</h4>
+                  <a href="javscript://">Shop</a>
+                  <span>
+                    <img src="assets/img/polygon-1.webp" alt="Polygon" loading="lazy" width="9" height="5">
+                  </span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="category-box">
+              <a href="javascript://">
+                <img src="assets/img/category/winmart.webp" alt="Win Mart" loading="lazy" width="276" height="203">
+                <div class="category-name-band">
+                  <h4>Win Mart</h4>
+                  <a href="javscript://">Shop</a>
+                  <span>
+                    <img src="assets/img/polygon-1.webp" alt="Polygon" loading="lazy" width="9" height="5">
+                  </span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="category-box">
+              <a href="javascript://">
+                <img src="assets/img/category/automotive.webp" alt="Automotive" loading="lazy" width="276" height="203">
+                <div class="category-name-band">
+                  <h4>Automotive</h4>
+                  <a href="javscript://">Shop</a>
+                  <span>
+                    <img src="assets/img/polygon-1.webp" alt="Polygon" loading="lazy" width="9" height="5">
+                  </span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="category-box">
+              <a href="javascript://">
+                <img src="assets/img/category/home-lifestylet.webp" alt="Home & Lifestylet" loading="lazy" width="276" height="203">
+                <div class="category-name-band">
+                  <h4>Home & Lifestylet</h4>
+                  <a href="javscript://">Shop</a>
+                  <span>
+                    <img src="assets/img/polygon-1.webp" alt="Polygon" loading="lazy" width="9" height="5">
+                  </span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- DEALS OF THE DAY -->
+    <section class="deal-of-the-day-sec">
+      <div class="container">
+        <div class="row bdr-sep">
+          <div class="col-md-4 col-xs-12 f-left">
+            <div class="deal-of-the-day">
+              <h1>DEALS <span>OF THE
+                  <br>DAY
+                </span>
+              </h1>
+              <p>You cannot inspect quality into the product; it is already there. I am not a product of my circumstances. I am a product of my decisions.</p>
+              <a href="javascript://" class="btn primary-btn view-more">View More</a>
+            </div>
+          </div>
+          <div class="col-md-8 col-xs-12 f-left deal-of-the-day-carousel-div">
+            <div class="owl-carousel owl-theme deal-of-the-day-carousel" id="deal-of-the-day-carousel">
+              <div class="item">
+                <div class="deal-box">
+                  <a href="javascript://">
+                    <div class="deal-item">
+                      <img src="assets/img/deal/mobile.webp" alt="Mobile" loading="lazy" width="228" height="253">
+                      <div class="add-cart-price">
+                        <p>Add to cart</p>
+                        <p>RS <span>30,000</span>
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="item">
+                <div class="deal-box">
+                  <a href="javascript://">
+                    <div class="deal-item">
+                      <img src="assets/img/deal/smart-watch.webp" alt="Watch" loading="lazy" width="228" height="253">
+                      <div class="add-cart-price">
+                        <p>Add to cart</p>
+                        <p>RS <span>30,000</span>
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="item">
+                <div class="deal-box">
+                  <a href="javascript://">
+                    <div class="deal-item">
+                      <img src="assets/img/deal/cable.webp" alt="Cable" loading="lazy" width="228" height="253">
+                      <div class="add-cart-price">
+                        <p>Add to cart</p>
+                        <p>RS <span>30,000</span>
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="item">
+                <div class="deal-box">
+                  <a href="javascript://">
+                    <div class="deal-item">
+                      <img src="assets/img/deal/cable.webp" alt="Cable" loading="lazy" width="228" height="253">
+                      <div class="add-cart-price">
+                        <p>Add to cart</p>
+                        <p>RS <span>30,000</span>
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- Ends --><!-- New Arrivals -->
+    <section class="new-arrivals-sec">
+      <div class="container">
+        <div class="new-arrival-heading">
+          <h3 class="sub-sec-title">
+            <span>New</span> Arrivals
+          </h3>
+          <div id="timer" class="arrivals-countdown">
+            <div>Ends in:</div>
+            <div id="days"></div>
+            <div id="hours"></div>
+            <div id="minutes"></div>
+            <div id="seconds"></div>
+          </div>
+        </div>
+        <div class="new-arrival-item">
+          <div class="product-card">
+            <p>
+              <small>Bin Bakar Electronics</small>
+            </p>
+            <p class="product-name">Samsung 40N5300 S11 Pluse</p>
+            <div class="product-image">
+              <img src="assets/img/products/product-tv.webp" alt="Product" loading="lazy" width="160" height="131">
+              <div class="view-wish-list">
+                <a href="javascript://">View <svg xmlns="http://www.w3.org/2000/svg" width="15" height="10" viewBox="0 0 15 10" fill="none">
+                    <path d="M7.50001 7.55771C8.91259 7.55771 10.0577 6.41259 10.0577 5.00001C10.0577 3.58744 8.91259 2.44232 7.50001 2.44232C6.08744 2.44232 4.94232 3.58744 4.94232 5.00001C4.94232 6.41259 6.08744 7.55771 7.50001 7.55771Z" stroke="black" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M0.557678 5C0.557678 5 3.08215 0.25 7.49999 0.25C11.9178 0.25 14.4423 5 14.4423 5C14.4423 5 11.9178 9.75 7.49999 9.75C3.08215 9.75 0.557678 5 0.557678 5Z" stroke="black" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </a>
+                <a href="javascript://">Wish List <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                    <path d="M12.4976 1.06089C12.1799 0.724555 11.8028 0.457752 11.3877 0.275722C10.9726 0.0936915 10.5276 0 10.0783 0C9.629 0 9.18407 0.0936915 8.76897 0.275722C8.35386 0.457752 7.97671 0.724555 7.65907 1.06089L6.99983 1.75857L6.3406 1.06089C5.69898 0.381838 4.82874 0.000351975 3.92135 0.000351982C3.01395 0.000351989 2.14372 0.381838 1.50209 1.06089C0.860462 1.73994 0.5 2.66092 0.5 3.62124C0.5 4.58157 0.860462 5.50255 1.50209 6.1816L2.16132 6.87928L6.99983 12L11.8383 6.87928L12.4976 6.1816C12.8154 5.84543 13.0675 5.44628 13.2395 5.00697C13.4115 4.56765 13.5 4.09678 13.5 3.62124C13.5 3.14571 13.4115 2.67484 13.2395 2.23552C13.0675 1.79621 12.8154 1.39706 12.4976 1.06089Z" fill="#C6B7B7" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="product-price">
+              <p class="actual-price">RS <span>60.000</span>
+              </p>
+              <p>RS <span>56.000</span>
+              </p>
+            </div>
+            <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+          </div>
+          <div class="product-card">
+            <p>
+              <small>Bin Bakar Electronics</small>
+            </p>
+            <p class="product-name">Samsung 40N5300 S11 Pluse</p>
+            <div class="product-image">
+              <img src="assets/img/products/product-tv.webp" alt="Product" loading="lazy" width="160" height="131">
+              <div class="view-wish-list">
+                <a href="javascript://">View <svg xmlns="http://www.w3.org/2000/svg" width="15" height="10" viewBox="0 0 15 10" fill="none">
+                    <path d="M7.50001 7.55771C8.91259 7.55771 10.0577 6.41259 10.0577 5.00001C10.0577 3.58744 8.91259 2.44232 7.50001 2.44232C6.08744 2.44232 4.94232 3.58744 4.94232 5.00001C4.94232 6.41259 6.08744 7.55771 7.50001 7.55771Z" stroke="black" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M0.557678 5C0.557678 5 3.08215 0.25 7.49999 0.25C11.9178 0.25 14.4423 5 14.4423 5C14.4423 5 11.9178 9.75 7.49999 9.75C3.08215 9.75 0.557678 5 0.557678 5Z" stroke="black" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </a>
+                <a href="javascript://">Wish List <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                    <path d="M12.4976 1.06089C12.1799 0.724555 11.8028 0.457752 11.3877 0.275722C10.9726 0.0936915 10.5276 0 10.0783 0C9.629 0 9.18407 0.0936915 8.76897 0.275722C8.35386 0.457752 7.97671 0.724555 7.65907 1.06089L6.99983 1.75857L6.3406 1.06089C5.69898 0.381838 4.82874 0.000351975 3.92135 0.000351982C3.01395 0.000351989 2.14372 0.381838 1.50209 1.06089C0.860462 1.73994 0.5 2.66092 0.5 3.62124C0.5 4.58157 0.860462 5.50255 1.50209 6.1816L2.16132 6.87928L6.99983 12L11.8383 6.87928L12.4976 6.1816C12.8154 5.84543 13.0675 5.44628 13.2395 5.00697C13.4115 4.56765 13.5 4.09678 13.5 3.62124C13.5 3.14571 13.4115 2.67484 13.2395 2.23552C13.0675 1.79621 12.8154 1.39706 12.4976 1.06089Z" fill="#C6B7B7" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="product-price">
+              <p class="actual-price">RS <span>60.000</span>
+              </p>
+              <p>RS <span>56.000</span>
+              </p>
+            </div>
+            <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+          </div>
+          <div class="product-card">
+            <p>
+              <small>Bin Bakar Electronics</small>
+            </p>
+            <p class="product-name">Samsung 40N5300 S11 Pluse</p>
+            <div class="product-image">
+              <img src="assets/img/products/product-tv.webp" alt="Product" loading="lazy" width="160" height="131">
+              <div class="view-wish-list">
+                <a href="javascript://">View <svg xmlns="http://www.w3.org/2000/svg" width="15" height="10" viewBox="0 0 15 10" fill="none">
+                    <path d="M7.50001 7.55771C8.91259 7.55771 10.0577 6.41259 10.0577 5.00001C10.0577 3.58744 8.91259 2.44232 7.50001 2.44232C6.08744 2.44232 4.94232 3.58744 4.94232 5.00001C4.94232 6.41259 6.08744 7.55771 7.50001 7.55771Z" stroke="black" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M0.557678 5C0.557678 5 3.08215 0.25 7.49999 0.25C11.9178 0.25 14.4423 5 14.4423 5C14.4423 5 11.9178 9.75 7.49999 9.75C3.08215 9.75 0.557678 5 0.557678 5Z" stroke="black" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </a>
+                <a href="javascript://">Wish List <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                    <path d="M12.4976 1.06089C12.1799 0.724555 11.8028 0.457752 11.3877 0.275722C10.9726 0.0936915 10.5276 0 10.0783 0C9.629 0 9.18407 0.0936915 8.76897 0.275722C8.35386 0.457752 7.97671 0.724555 7.65907 1.06089L6.99983 1.75857L6.3406 1.06089C5.69898 0.381838 4.82874 0.000351975 3.92135 0.000351982C3.01395 0.000351989 2.14372 0.381838 1.50209 1.06089C0.860462 1.73994 0.5 2.66092 0.5 3.62124C0.5 4.58157 0.860462 5.50255 1.50209 6.1816L2.16132 6.87928L6.99983 12L11.8383 6.87928L12.4976 6.1816C12.8154 5.84543 13.0675 5.44628 13.2395 5.00697C13.4115 4.56765 13.5 4.09678 13.5 3.62124C13.5 3.14571 13.4115 2.67484 13.2395 2.23552C13.0675 1.79621 12.8154 1.39706 12.4976 1.06089Z" fill="#C6B7B7" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="product-price">
+              <p class="actual-price">RS <span>60.000</span>
+              </p>
+              <p>RS <span>56.000</span>
+              </p>
+            </div>
+            <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+          </div>
+          <div class="product-card">
+            <p>
+              <small>Bin Bakar Electronics</small>
+            </p>
+            <p class="product-name">Samsung 40N5300 S11 Pluse</p>
+            <div class="product-image">
+              <img src="assets/img/products/product-tv.webp" alt="Product" loading="lazy" width="160" height="131">
+              <div class="view-wish-list">
+                <a href="javascript://">View <svg xmlns="http://www.w3.org/2000/svg" width="15" height="10" viewBox="0 0 15 10" fill="none">
+                    <path d="M7.50001 7.55771C8.91259 7.55771 10.0577 6.41259 10.0577 5.00001C10.0577 3.58744 8.91259 2.44232 7.50001 2.44232C6.08744 2.44232 4.94232 3.58744 4.94232 5.00001C4.94232 6.41259 6.08744 7.55771 7.50001 7.55771Z" stroke="black" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M0.557678 5C0.557678 5 3.08215 0.25 7.49999 0.25C11.9178 0.25 14.4423 5 14.4423 5C14.4423 5 11.9178 9.75 7.49999 9.75C3.08215 9.75 0.557678 5 0.557678 5Z" stroke="black" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </a>
+                <a href="javascript://">Wish List <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                    <path d="M12.4976 1.06089C12.1799 0.724555 11.8028 0.457752 11.3877 0.275722C10.9726 0.0936915 10.5276 0 10.0783 0C9.629 0 9.18407 0.0936915 8.76897 0.275722C8.35386 0.457752 7.97671 0.724555 7.65907 1.06089L6.99983 1.75857L6.3406 1.06089C5.69898 0.381838 4.82874 0.000351975 3.92135 0.000351982C3.01395 0.000351989 2.14372 0.381838 1.50209 1.06089C0.860462 1.73994 0.5 2.66092 0.5 3.62124C0.5 4.58157 0.860462 5.50255 1.50209 6.1816L2.16132 6.87928L6.99983 12L11.8383 6.87928L12.4976 6.1816C12.8154 5.84543 13.0675 5.44628 13.2395 5.00697C13.4115 4.56765 13.5 4.09678 13.5 3.62124C13.5 3.14571 13.4115 2.67484 13.2395 2.23552C13.0675 1.79621 12.8154 1.39706 12.4976 1.06089Z" fill="#C6B7B7" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="product-price">
+              <p class="actual-price">RS <span>60.000</span>
+              </p>
+              <p>RS <span>56.000</span>
+              </p>
+            </div>
+            <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+          </div>
+          <div class="product-card">
+            <p>
+              <small>Bin Bakar Electronics</small>
+            </p>
+            <p class="product-name">Samsung 40N5300 S11 Pluse</p>
+            <div class="product-image">
+              <img src="assets/img/products/product-tv.webp" alt="Product" loading="lazy" width="160" height="131">
+              <div class="view-wish-list">
+                <a href="javascript://">View <svg xmlns="http://www.w3.org/2000/svg" width="15" height="10" viewBox="0 0 15 10" fill="none">
+                    <path d="M7.50001 7.55771C8.91259 7.55771 10.0577 6.41259 10.0577 5.00001C10.0577 3.58744 8.91259 2.44232 7.50001 2.44232C6.08744 2.44232 4.94232 3.58744 4.94232 5.00001C4.94232 6.41259 6.08744 7.55771 7.50001 7.55771Z" stroke="black" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M0.557678 5C0.557678 5 3.08215 0.25 7.49999 0.25C11.9178 0.25 14.4423 5 14.4423 5C14.4423 5 11.9178 9.75 7.49999 9.75C3.08215 9.75 0.557678 5 0.557678 5Z" stroke="black" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </a>
+                <a href="javascript://">Wish List <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                    <path d="M12.4976 1.06089C12.1799 0.724555 11.8028 0.457752 11.3877 0.275722C10.9726 0.0936915 10.5276 0 10.0783 0C9.629 0 9.18407 0.0936915 8.76897 0.275722C8.35386 0.457752 7.97671 0.724555 7.65907 1.06089L6.99983 1.75857L6.3406 1.06089C5.69898 0.381838 4.82874 0.000351975 3.92135 0.000351982C3.01395 0.000351989 2.14372 0.381838 1.50209 1.06089C0.860462 1.73994 0.5 2.66092 0.5 3.62124C0.5 4.58157 0.860462 5.50255 1.50209 6.1816L2.16132 6.87928L6.99983 12L11.8383 6.87928L12.4976 6.1816C12.8154 5.84543 13.0675 5.44628 13.2395 5.00697C13.4115 4.56765 13.5 4.09678 13.5 3.62124C13.5 3.14571 13.4115 2.67484 13.2395 2.23552C13.0675 1.79621 12.8154 1.39706 12.4976 1.06089Z" fill="#C6B7B7" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="product-price">
+              <p class="actual-price">RS <span>60.000</span>
+              </p>
+              <p>RS <span>56.000</span>
+              </p>
+            </div>
+            <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+          </div>
+          <div class="product-card">
+            <p>
+              <small>Bin Bakar Electronics</small>
+            </p>
+            <p class="product-name">Samsung 40N5300 S11 Pluse</p>
+            <div class="product-image">
+              <img src="assets/img/products/product-tv.webp" alt="Product" loading="lazy" width="160" height="131">
+              <div class="view-wish-list">
+                <a href="javascript://">View <svg xmlns="http://www.w3.org/2000/svg" width="15" height="10" viewBox="0 0 15 10" fill="none">
+                    <path d="M7.50001 7.55771C8.91259 7.55771 10.0577 6.41259 10.0577 5.00001C10.0577 3.58744 8.91259 2.44232 7.50001 2.44232C6.08744 2.44232 4.94232 3.58744 4.94232 5.00001C4.94232 6.41259 6.08744 7.55771 7.50001 7.55771Z" stroke="black" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M0.557678 5C0.557678 5 3.08215 0.25 7.49999 0.25C11.9178 0.25 14.4423 5 14.4423 5C14.4423 5 11.9178 9.75 7.49999 9.75C3.08215 9.75 0.557678 5 0.557678 5Z" stroke="black" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </a>
+                <a href="javascript://">Wish List <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                    <path d="M12.4976 1.06089C12.1799 0.724555 11.8028 0.457752 11.3877 0.275722C10.9726 0.0936915 10.5276 0 10.0783 0C9.629 0 9.18407 0.0936915 8.76897 0.275722C8.35386 0.457752 7.97671 0.724555 7.65907 1.06089L6.99983 1.75857L6.3406 1.06089C5.69898 0.381838 4.82874 0.000351975 3.92135 0.000351982C3.01395 0.000351989 2.14372 0.381838 1.50209 1.06089C0.860462 1.73994 0.5 2.66092 0.5 3.62124C0.5 4.58157 0.860462 5.50255 1.50209 6.1816L2.16132 6.87928L6.99983 12L11.8383 6.87928L12.4976 6.1816C12.8154 5.84543 13.0675 5.44628 13.2395 5.00697C13.4115 4.56765 13.5 4.09678 13.5 3.62124C13.5 3.14571 13.4115 2.67484 13.2395 2.23552C13.0675 1.79621 12.8154 1.39706 12.4976 1.06089Z" fill="#C6B7B7" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="product-price">
+              <p class="actual-price">RS <span>60.000</span>
+              </p>
+              <p>RS <span>56.000</span>
+              </p>
+            </div>
+            <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+          </div>
+        </div>
+      </div>
+    </section><!-- Ends --><!-- Our products sec -->
+    <section class="our-products-sec">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 our-products-sec-header">
+            <h3 class="sub-sec-title">Our <span>Products</span>
+            </h3>
+            <div class="product-category-tabs"><!-- <div class="owl-carousel owl-theme product-category-tabs-carousel"
+                                id="product-category-tabs-carousel">
+                        <div class="item ">
+                            <p><a href="javascript://" class="active" data-url="#easy-installment">Easy Monthly
+                                    Installmentsd</a>
+                            </p>
+                        </div>
+                        <div class="item ">
+                            <p><a href="javascript://" data-url="#on-sale">On Sale</a></p>
+                        </div>
+                        <div class="item ">
+                            <p><a href="javascript://" data-url="#top-rated">Top Rated</a></p>
+                        </div>
+                    </div> -->
+              <ul class="nav nav-tabs scroll_tabs_theme_light" id="productsstab">
+                <li class="nav-item">
+                  <a href="javascript://" class="active" data-url="#easy-installment">Easy Monthly Installmentsd</a>
+                </li>
+                <li class="nav-item">
+                  <a href="javascript://" data-url="#on-sale">On Sale</a>
+                </li>
+                <li class="nav-item">
+                  <a href="javascript://" data-url="#top-rated">Top Rated</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="our-products-block">
+            <div class="our-products-offer-product">
+              <a href="javascript://">
+                <div class="offer-product-img">
+                  <h4 class="special-offer-title">Special
+                    <br>
+                    <span>Offer</span>
+                  </h4>
+                  <img src="assets/img/special-headset.webp" alt="Special offer" loading="lazy" class="img-fluid" width="383" height="383">
+                  <div class="offer-percentage-circle">
+                    <h4>Save
+                      <br>
+                      <span>10%</span>
+                    </h4>
+                  </div>
+                </div>
+                <div class="offer-product-details">
+                  <p>Nintendo Switch Console</p>
+                  <div class="offer-product-price">
+                    <h3>Rs <span>65,208</span>
+                    </h3>
+                    <p class="actual-price">Rs.<span>66,000</span>
+                    </p>
+                  </div>
+                  <div class="offer-product-availability">
+                    <p>Already Sold: <span>6</span>
+                    </p>
+                    <p>Available: <span>30</span>
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="product-category-tabs-content">
+              <div class="easy-installment" id="easy-installment">
+                <div class="our-products-sec-products">
+                  <div class="product-card">
+                    <p>
+                      <small>Bin Bakar Electronics</small>
+                    </p>
+                    <p class="product-name">Samsung 40N5300 S11 Pluse</p>
+                    <div class="product-image">
+                      <img src="assets/img/products/product-tv.webp" alt="Product" loading="lazy" width="160" height="131">
+                      <div class="view-wish-list">
+                        <a href="javascript://">View <svg xmlns="http://www.w3.org/2000/svg" width="15" height="10" viewBox="0 0 15 10" fill="none">
+                            <path d="M7.50001 7.55771C8.91259 7.55771 10.0577 6.41259 10.0577 5.00001C10.0577 3.58744 8.91259 2.44232 7.50001 2.44232C6.08744 2.44232 4.94232 3.58744 4.94232 5.00001C4.94232 6.41259 6.08744 7.55771 7.50001 7.55771Z" stroke="black" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M0.557678 5C0.557678 5 3.08215 0.25 7.49999 0.25C11.9178 0.25 14.4423 5 14.4423 5C14.4423 5 11.9178 9.75 7.49999 9.75C3.08215 9.75 0.557678 5 0.557678 5Z" stroke="black" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+                          </svg>
+                        </a>
+                        <a href="javascript://">Wish List <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                            <path d="M12.4976 1.06089C12.1799 0.724555 11.8028 0.457752 11.3877 0.275722C10.9726 0.0936915 10.5276 0 10.0783 0C9.629 0 9.18407 0.0936915 8.76897 0.275722C8.35386 0.457752 7.97671 0.724555 7.65907 1.06089L6.99983 1.75857L6.3406 1.06089C5.69898 0.381838 4.82874 0.000351975 3.92135 0.000351982C3.01395 0.000351989 2.14372 0.381838 1.50209 1.06089C0.860462 1.73994 0.5 2.66092 0.5 3.62124C0.5 4.58157 0.860462 5.50255 1.50209 6.1816L2.16132 6.87928L6.99983 12L11.8383 6.87928L12.4976 6.1816C12.8154 5.84543 13.0675 5.44628 13.2395 5.00697C13.4115 4.56765 13.5 4.09678 13.5 3.62124C13.5 3.14571 13.4115 2.67484 13.2395 2.23552C13.0675 1.79621 12.8154 1.39706 12.4976 1.06089Z" fill="#C6B7B7" />
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="product-price">
+                      <p class="actual-price">RS <span>60.000</span>
+                      </p>
+                      <p>RS <span>56.000</span>
+                      </p>
+                    </div>
+                    <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                  </div>
+                  <div class="product-card">
+                    <p>
+                      <small>Bin Bakar Electronics</small>
+                    </p>
+                    <p class="product-name">Haier HSU-12HFMAC</p>
+                    <div class="product-image">
+                      <img src="assets/img/products/ac.webp" alt="Product" loading="lazy" width="160" height="131">
+                      <div class="view-wish-list">
+                        <a href="javascript://">View <svg xmlns="http://www.w3.org/2000/svg" width="15" height="10" viewBox="0 0 15 10" fill="none">
+                            <path d="M7.50001 7.55771C8.91259 7.55771 10.0577 6.41259 10.0577 5.00001C10.0577 3.58744 8.91259 2.44232 7.50001 2.44232C6.08744 2.44232 4.94232 3.58744 4.94232 5.00001C4.94232 6.41259 6.08744 7.55771 7.50001 7.55771Z" stroke="black" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M0.557678 5C0.557678 5 3.08215 0.25 7.49999 0.25C11.9178 0.25 14.4423 5 14.4423 5C14.4423 5 11.9178 9.75 7.49999 9.75C3.08215 9.75 0.557678 5 0.557678 5Z" stroke="black" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+                          </svg>
+                        </a>
+                        <a href="javascript://">Wish List <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                            <path d="M12.4976 1.06089C12.1799 0.724555 11.8028 0.457752 11.3877 0.275722C10.9726 0.0936915 10.5276 0 10.0783 0C9.629 0 9.18407 0.0936915 8.76897 0.275722C8.35386 0.457752 7.97671 0.724555 7.65907 1.06089L6.99983 1.75857L6.3406 1.06089C5.69898 0.381838 4.82874 0.000351975 3.92135 0.000351982C3.01395 0.000351989 2.14372 0.381838 1.50209 1.06089C0.860462 1.73994 0.5 2.66092 0.5 3.62124C0.5 4.58157 0.860462 5.50255 1.50209 6.1816L2.16132 6.87928L6.99983 12L11.8383 6.87928L12.4976 6.1816C12.8154 5.84543 13.0675 5.44628 13.2395 5.00697C13.4115 4.56765 13.5 4.09678 13.5 3.62124C13.5 3.14571 13.4115 2.67484 13.2395 2.23552C13.0675 1.79621 12.8154 1.39706 12.4976 1.06089Z" fill="#C6B7B7" />
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="product-price">
+                      <p class="actual-price">RS <span>60.000</span>
+                      </p>
+                      <p>RS <span>56.000</span>
+                      </p>
+                    </div>
+                    <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                  </div>
+                  <div class="product-card">
+                    <p>
+                      <small>Bin Bakar Electronics</small>
+                    </p>
+                    <p class="product-name">Samsung Automatic Washing Machine</p>
+                    <div class="product-image">
+                      <img src="assets/img/products/washing-machine.webp" alt="Product" width="160" height="131" loading="lazy">
+                      <div class="view-wish-list">
+                        <a href="javascript://">View <svg xmlns="http://www.w3.org/2000/svg" width="15" height="10" viewBox="0 0 15 10" fill="none">
+                            <path d="M7.50001 7.55771C8.91259 7.55771 10.0577 6.41259 10.0577 5.00001C10.0577 3.58744 8.91259 2.44232 7.50001 2.44232C6.08744 2.44232 4.94232 3.58744 4.94232 5.00001C4.94232 6.41259 6.08744 7.55771 7.50001 7.55771Z" stroke="black" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M0.557678 5C0.557678 5 3.08215 0.25 7.49999 0.25C11.9178 0.25 14.4423 5 14.4423 5C14.4423 5 11.9178 9.75 7.49999 9.75C3.08215 9.75 0.557678 5 0.557678 5Z" stroke="black" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+                          </svg>
+                        </a>
+                        <a href="javascript://">Wish List <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                            <path d="M12.4976 1.06089C12.1799 0.724555 11.8028 0.457752 11.3877 0.275722C10.9726 0.0936915 10.5276 0 10.0783 0C9.629 0 9.18407 0.0936915 8.76897 0.275722C8.35386 0.457752 7.97671 0.724555 7.65907 1.06089L6.99983 1.75857L6.3406 1.06089C5.69898 0.381838 4.82874 0.000351975 3.92135 0.000351982C3.01395 0.000351989 2.14372 0.381838 1.50209 1.06089C0.860462 1.73994 0.5 2.66092 0.5 3.62124C0.5 4.58157 0.860462 5.50255 1.50209 6.1816L2.16132 6.87928L6.99983 12L11.8383 6.87928L12.4976 6.1816C12.8154 5.84543 13.0675 5.44628 13.2395 5.00697C13.4115 4.56765 13.5 4.09678 13.5 3.62124C13.5 3.14571 13.4115 2.67484 13.2395 2.23552C13.0675 1.79621 12.8154 1.39706 12.4976 1.06089Z" fill="#C6B7B7" />
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="product-price">
+                      <p class="actual-price">RS <span>60.000</span>
+                      </p>
+                      <p>RS <span>56.000</span>
+                      </p>
+                    </div>
+                    <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                  </div>
+                  <div class="product-card">
+                    <p>
+                      <small>Bin Bakar Electronics</small>
+                    </p>
+                    <p class="product-name">Dawlance DW-142HZP Microwave Ovan</p>
+                    <div class="product-image">
+                      <img src="assets/img/products/microwave-ovan.webp" alt="Product" loading="lazy" width="160" height="131">
+                      <div class="view-wish-list">
+                        <a href="javascript://">View <svg xmlns="http://www.w3.org/2000/svg" width="15" height="10" viewBox="0 0 15 10" fill="none">
+                            <path d="M7.50001 7.55771C8.91259 7.55771 10.0577 6.41259 10.0577 5.00001C10.0577 3.58744 8.91259 2.44232 7.50001 2.44232C6.08744 2.44232 4.94232 3.58744 4.94232 5.00001C4.94232 6.41259 6.08744 7.55771 7.50001 7.55771Z" stroke="black" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M0.557678 5C0.557678 5 3.08215 0.25 7.49999 0.25C11.9178 0.25 14.4423 5 14.4423 5C14.4423 5 11.9178 9.75 7.49999 9.75C3.08215 9.75 0.557678 5 0.557678 5Z" stroke="black" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+                          </svg>
+                        </a>
+                        <a href="javascript://">Wish List <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                            <path d="M12.4976 1.06089C12.1799 0.724555 11.8028 0.457752 11.3877 0.275722C10.9726 0.0936915 10.5276 0 10.0783 0C9.629 0 9.18407 0.0936915 8.76897 0.275722C8.35386 0.457752 7.97671 0.724555 7.65907 1.06089L6.99983 1.75857L6.3406 1.06089C5.69898 0.381838 4.82874 0.000351975 3.92135 0.000351982C3.01395 0.000351989 2.14372 0.381838 1.50209 1.06089C0.860462 1.73994 0.5 2.66092 0.5 3.62124C0.5 4.58157 0.860462 5.50255 1.50209 6.1816L2.16132 6.87928L6.99983 12L11.8383 6.87928L12.4976 6.1816C12.8154 5.84543 13.0675 5.44628 13.2395 5.00697C13.4115 4.56765 13.5 4.09678 13.5 3.62124C13.5 3.14571 13.4115 2.67484 13.2395 2.23552C13.0675 1.79621 12.8154 1.39706 12.4976 1.06089Z" fill="#C6B7B7" />
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="product-price">
+                      <p class="actual-price">RS <span>60.000</span>
+                      </p>
+                      <p>RS <span>56.000</span>
+                      </p>
+                    </div>
+                    <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                  </div>
+                  <div class="product-card">
+                    <p>
+                      <small>Bin Bakar Electronics</small>
+                    </p>
+                    <p class="product-name">Dawlance DW-115 Microwave Ovan</p>
+                    <div class="product-image">
+                      <img src="assets/img/products/microwave-ovan-115.webp" alt="Product" loading="lazy" width="160" height="131">
+                      <div class="view-wish-list">
+                        <a href="javascript://">View <svg xmlns="http://www.w3.org/2000/svg" width="15" height="10" viewBox="0 0 15 10" fill="none">
+                            <path d="M7.50001 7.55771C8.91259 7.55771 10.0577 6.41259 10.0577 5.00001C10.0577 3.58744 8.91259 2.44232 7.50001 2.44232C6.08744 2.44232 4.94232 3.58744 4.94232 5.00001C4.94232 6.41259 6.08744 7.55771 7.50001 7.55771Z" stroke="black" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M0.557678 5C0.557678 5 3.08215 0.25 7.49999 0.25C11.9178 0.25 14.4423 5 14.4423 5C14.4423 5 11.9178 9.75 7.49999 9.75C3.08215 9.75 0.557678 5 0.557678 5Z" stroke="black" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+                          </svg>
+                        </a>
+                        <a href="javascript://">Wish List <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                            <path d="M12.4976 1.06089C12.1799 0.724555 11.8028 0.457752 11.3877 0.275722C10.9726 0.0936915 10.5276 0 10.0783 0C9.629 0 9.18407 0.0936915 8.76897 0.275722C8.35386 0.457752 7.97671 0.724555 7.65907 1.06089L6.99983 1.75857L6.3406 1.06089C5.69898 0.381838 4.82874 0.000351975 3.92135 0.000351982C3.01395 0.000351989 2.14372 0.381838 1.50209 1.06089C0.860462 1.73994 0.5 2.66092 0.5 3.62124C0.5 4.58157 0.860462 5.50255 1.50209 6.1816L2.16132 6.87928L6.99983 12L11.8383 6.87928L12.4976 6.1816C12.8154 5.84543 13.0675 5.44628 13.2395 5.00697C13.4115 4.56765 13.5 4.09678 13.5 3.62124C13.5 3.14571 13.4115 2.67484 13.2395 2.23552C13.0675 1.79621 12.8154 1.39706 12.4976 1.06089Z" fill="#C6B7B7" />
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="product-price">
+                      <p class="actual-price">RS <span>60.000</span>
+                      </p>
+                      <p>RS <span>56.000</span>
+                      </p>
+                    </div>
+                    <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                  </div>
+                  <div class="product-card">
+                    <p>
+                      <small>Bin Bakar Electronics</small>
+                    </p>
+                    <p class="product-name">Max Gas Water Heater</p>
+                    <div class="product-image">
+                      <img src="assets/img/products/water-heater.webp" alt="Product" loading="lazy" width="160" height="131">
+                      <div class="view-wish-list">
+                        <a href="javascript://">View <svg xmlns="http://www.w3.org/2000/svg" width="15" height="10" viewBox="0 0 15 10" fill="none">
+                            <path d="M7.50001 7.55771C8.91259 7.55771 10.0577 6.41259 10.0577 5.00001C10.0577 3.58744 8.91259 2.44232 7.50001 2.44232C6.08744 2.44232 4.94232 3.58744 4.94232 5.00001C4.94232 6.41259 6.08744 7.55771 7.50001 7.55771Z" stroke="black" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M0.557678 5C0.557678 5 3.08215 0.25 7.49999 0.25C11.9178 0.25 14.4423 5 14.4423 5C14.4423 5 11.9178 9.75 7.49999 9.75C3.08215 9.75 0.557678 5 0.557678 5Z" stroke="black" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+                          </svg>
+                        </a>
+                        <a href="javascript://">Wish List <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                            <path d="M12.4976 1.06089C12.1799 0.724555 11.8028 0.457752 11.3877 0.275722C10.9726 0.0936915 10.5276 0 10.0783 0C9.629 0 9.18407 0.0936915 8.76897 0.275722C8.35386 0.457752 7.97671 0.724555 7.65907 1.06089L6.99983 1.75857L6.3406 1.06089C5.69898 0.381838 4.82874 0.000351975 3.92135 0.000351982C3.01395 0.000351989 2.14372 0.381838 1.50209 1.06089C0.860462 1.73994 0.5 2.66092 0.5 3.62124C0.5 4.58157 0.860462 5.50255 1.50209 6.1816L2.16132 6.87928L6.99983 12L11.8383 6.87928L12.4976 6.1816C12.8154 5.84543 13.0675 5.44628 13.2395 5.00697C13.4115 4.56765 13.5 4.09678 13.5 3.62124C13.5 3.14571 13.4115 2.67484 13.2395 2.23552C13.0675 1.79621 12.8154 1.39706 12.4976 1.06089Z" fill="#C6B7B7" />
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="product-price">
+                      <p class="actual-price">RS <span>60.000</span>
+                      </p>
+                      <p>RS <span>56.000</span>
+                      </p>
+                    </div>
+                    <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                  </div>
+                  <div class="product-card">
+                    <p>
+                      <small>Bin Bakar Electronics</small>
+                    </p>
+                    <p class="product-name">Gree Air Conditioner</p>
+                    <div class="product-image">
+                      <img src="assets/img/products/air-conditioner.webp" alt="Product" loading="lazy" width="160" height="131">
+                      <div class="view-wish-list">
+                        <a href="javascript://">View <svg xmlns="http://www.w3.org/2000/svg" width="15" height="10" viewBox="0 0 15 10" fill="none">
+                            <path d="M7.50001 7.55771C8.91259 7.55771 10.0577 6.41259 10.0577 5.00001C10.0577 3.58744 8.91259 2.44232 7.50001 2.44232C6.08744 2.44232 4.94232 3.58744 4.94232 5.00001C4.94232 6.41259 6.08744 7.55771 7.50001 7.55771Z" stroke="black" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M0.557678 5C0.557678 5 3.08215 0.25 7.49999 0.25C11.9178 0.25 14.4423 5 14.4423 5C14.4423 5 11.9178 9.75 7.49999 9.75C3.08215 9.75 0.557678 5 0.557678 5Z" stroke="black" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+                          </svg>
+                        </a>
+                        <a href="javascript://">Wish List <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                            <path d="M12.4976 1.06089C12.1799 0.724555 11.8028 0.457752 11.3877 0.275722C10.9726 0.0936915 10.5276 0 10.0783 0C9.629 0 9.18407 0.0936915 8.76897 0.275722C8.35386 0.457752 7.97671 0.724555 7.65907 1.06089L6.99983 1.75857L6.3406 1.06089C5.69898 0.381838 4.82874 0.000351975 3.92135 0.000351982C3.01395 0.000351989 2.14372 0.381838 1.50209 1.06089C0.860462 1.73994 0.5 2.66092 0.5 3.62124C0.5 4.58157 0.860462 5.50255 1.50209 6.1816L2.16132 6.87928L6.99983 12L11.8383 6.87928L12.4976 6.1816C12.8154 5.84543 13.0675 5.44628 13.2395 5.00697C13.4115 4.56765 13.5 4.09678 13.5 3.62124C13.5 3.14571 13.4115 2.67484 13.2395 2.23552C13.0675 1.79621 12.8154 1.39706 12.4976 1.06089Z" fill="#C6B7B7" />
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="product-price">
+                      <p class="actual-price">RS <span>60.000</span>
+                      </p>
+                      <p>RS <span>56.000</span>
+                      </p>
+                    </div>
+                    <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                  </div>
+                  <div class="product-card">
+                    <p>
+                      <small>Bin Bakar Electronics</small>
+                    </p>
+                    <p class="product-name">Nintendo Switch Console</p>
+                    <div class="product-image">
+                      <img src="assets/img/products/switch-console.webp" alt="Product" loading="lazy" width="160" height="131">
+                      <div class="view-wish-list">
+                        <a href="javascript://">View <svg xmlns="http://www.w3.org/2000/svg" width="15" height="10" viewBox="0 0 15 10" fill="none">
+                            <path d="M7.50001 7.55771C8.91259 7.55771 10.0577 6.41259 10.0577 5.00001C10.0577 3.58744 8.91259 2.44232 7.50001 2.44232C6.08744 2.44232 4.94232 3.58744 4.94232 5.00001C4.94232 6.41259 6.08744 7.55771 7.50001 7.55771Z" stroke="black" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M0.557678 5C0.557678 5 3.08215 0.25 7.49999 0.25C11.9178 0.25 14.4423 5 14.4423 5C14.4423 5 11.9178 9.75 7.49999 9.75C3.08215 9.75 0.557678 5 0.557678 5Z" stroke="black" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+                          </svg>
+                        </a>
+                        <a href="javascript://">Wish List <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                            <path d="M12.4976 1.06089C12.1799 0.724555 11.8028 0.457752 11.3877 0.275722C10.9726 0.0936915 10.5276 0 10.0783 0C9.629 0 9.18407 0.0936915 8.76897 0.275722C8.35386 0.457752 7.97671 0.724555 7.65907 1.06089L6.99983 1.75857L6.3406 1.06089C5.69898 0.381838 4.82874 0.000351975 3.92135 0.000351982C3.01395 0.000351989 2.14372 0.381838 1.50209 1.06089C0.860462 1.73994 0.5 2.66092 0.5 3.62124C0.5 4.58157 0.860462 5.50255 1.50209 6.1816L2.16132 6.87928L6.99983 12L11.8383 6.87928L12.4976 6.1816C12.8154 5.84543 13.0675 5.44628 13.2395 5.00697C13.4115 4.56765 13.5 4.09678 13.5 3.62124C13.5 3.14571 13.4115 2.67484 13.2395 2.23552C13.0675 1.79621 12.8154 1.39706 12.4976 1.06089Z" fill="#C6B7B7" />
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="product-price">
+                      <p class="actual-price">RS <span>60.000</span>
+                      </p>
+                      <p>RS <span>56.000</span>
+                      </p>
+                    </div>
+                    <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- Ends --><!-- Best Deals sec -->
+    <section class="best-deal-sec">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 best-deal-sec-header">
+            <h3 class="sub-sec-title">Best <span>Deals</span>
+            </h3>
+            <div class="product-category-tabs">
+              <ul class="nav nav-tabs scroll_tabs_theme_light" id="dealstab">
+                <li class="nav-item">
+                  <a class="nav-link active" href="javascript://" data-url="#kitchen-appliances">Kitchen&nbsp;Appliances</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="consoles-tab" href="javascript://" data-url="#consoles">Consoles</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="tv-video-tab" href="javascript://" data-url="#tv-video">TV&nbsp;&&nbsp;Videos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="cellphone-tab" href="javascript://" data-url="#cellphone">Cell&nbsp;Phones</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="grocery-tab" href="javascript://" data-url="#grocery">Grocery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="grocery-tab1" href="javascript://" data-url="#grocery">Grocery</a>
+                </li>
+              </ul><!-- <p class="left-arrow-scroll" style="margin-top: 44px;">asdlj</p> -->
+            </div>
+          </div>
+          <div class="deal-category-content" id="kitchen-appliances" role="tabpanel" aria-labelledby="kitchen-appliances-tab-link">
+            <div class="three-column-block">
+              <div class="offer-coloumn-one width-set">
+                <div class="offer-poster">
+                  <div class="two-column offer-poster-style-1">
+                    <a href="javascript://" class="product-details">
+                      <p>Nintendo Switch Console</p>
+                      <h3 class="blue">Rs.<span>65,000</span>
+                      </h3>
+                      <p class="actual-price">Rs.<span>66,000</span>
+                      </p>
+                      <div class="save-percentage-box">Save
+                        <br>
+                        <span>10%</span>
+                      </div>
+                    </a>
+                    <a href="javascript://" class="product-image">
+                      <h4 class="special-offer-title">
+                        <span class="blue">Special</span>
+                        <br>Offer
+                      </h4>
+                      <img src="assets/img/offer-deals/computer.webp" alt="Product" width="164" height="102" loading="lazy">
+                    </a>
+                  </div>
+                  <div class="two-column offer-poster-style-2">
+                    <a href="javascript://" class="product-details">
+                      <h4 class="special-offer-title">
+                        <span class="red">Special</span>
+                        <br>Offer
+                      </h4>
+                      <p>Nintendo Switch</p>
+                      <h3 class="blue">Rs.<span>65,000</span>
+                      </h3>
+                      <p class="actual-price">Rs.<span>66,000</span>
+                      </p>
+                      <p class="already-sold">Already Sold: <span>6</span>
+                        <br>Available: <span>30</span>
+                      </p>
+                    </a>
+                    <a href="javascript://" class="product-image">
+                      <div class="save-percentage-box">Save
+                        <br>
+                        <span>10%</span>
+                      </div>
+                      <img src="assets/img/offer-deals/airpods.webp" alt="Product" width="164" height="147" loading="lazy">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="offer-coloumn-two width-set">
+                <div class="offer-poster one-column">
+                  <div class="product-details">
+                    <a href="javascript://">
+                      <h4 class="special-offer-title">
+                        <span class="red">Special</span>
+                        <br>Offer
+                      </h4>
+                      <img src="assets/img/offer-deals/smart-watch.webp" alt="Product" width="363" height="449" loading="lazy">
+                      <p>Nintendo Switch Console</p>
+                      <div class="offer-product-price">
+                        <h3>Rs <span>65,208</span>
+                        </h3>
+                        <p class="actual-price">Rs.<span>66,000</span>
+                        </p>
+                      </div>
+                      <div class="offer-product-availability">
+                        <p>Already Sold: <span>6</span>
+                        </p>
+                        <p>Available: <span>30</span>
+                        </p>
+                      </div>
+                      <div class="save-percentage-box circle">Save
+                        <br>
+                        <span>10%</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="offer-coloumn-three width-set">
+                <div class="offer-poster">
+                  <div class="two-column offer-poster-style-3">
+                    <a href="javascript://" class="product-details">
+                      <p>Nintendo Switch Console</p>
+                      <h3 class="blue">Rs.<span>65,000</span>
+                      </h3>
+                      <p class="actual-price">Rs.<span>66,000</span>
+                      </p>
+                      <div class="save-percentage-box">Save
+                        <br>
+                        <span>10%</span>
+                      </div>
+                    </a>
+                    <a href="javascript://" class="product-image">
+                      <h4 class="special-offer-title">
+                        <span class="green-dark">Special</span>
+                        <br>Offer
+                      </h4>
+                      <img src="assets/img/offer-deals/cloths.webp" alt="Product" width="164" height="132" loading="lazy">
+                    </a>
+                  </div>
+                  <div class="two-column offer-poster-style-4">
+                    <div class="product-image">
+                      <a href="javascript://">
+                        <h4 class="special-offer-title">
+                          <span class="red">Special</span>
+                          <br>Offer
+                        </h4>
+                        <img src="assets/img/offer-deals/computer-2.webp" alt="Product" width="215" height="158" loading="lazy">
+                      </a>
+                    </div>
+                    <div class="product-details">
+                      <p>Nintendo Switch Console</p>
+                      <div class="offer-product-price">
+                        <h3>Rs <span>65,208</span>
+                        </h3>
+                        <p class="actual-price">Rs.<span>66,000</span>
+                        </p>
+                      </div>
+                      <div class="offer-product-availability">
+                        <p>Already Sold: <span>6</span>
+                        </p>
+                        <p>Available: <span>30</span>
+                        </p>
+                      </div>
+                      <div class="save-percentage-box">Save
+                        <br>
+                        <span>10%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- Ends --><!-- Win mart sec -->
+    <section class="win-mart-sec">
+      <div class="container">
+        <div class="row">
+          <div class="win-mart-box">
+            <div class="save-band">
+              <p>SAVE 10%</p>
+            </div>
+            <div class="win-mart-item-block">
+              <div class="win-mart-item">
+                <a href="javascript://">
+                  <img src="assets/img/win-mart/win-mart-8.webp" alt="Win mart" loading="lazy" width="145" height="145">
+                  <div class="win-mart-item-details">
+                    <p>Add to cart</p>
+                    <p>Rs.<span>250</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="win-mart-item">
+                <a href="javascript://">
+                  <img src="assets/img/win-mart/win-mart-6.webp" alt="Win mart" loading="lazy" width="145" height="145">
+                  <div class="win-mart-item-details">
+                    <p>Add to cart</p>
+                    <p>Rs.<span>250</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="win-mart-item">
+                <a href="javascript://">
+                  <img src="assets/img/win-mart/win-mart-3.webp" alt="Win mart" loading="lazy" width="145" height="145">
+                  <div class="win-mart-item-details">
+                    <p>Add to cart</p>
+                    <p>Rs.<span>250</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="win-mart-item">
+                <a href="javascript://">
+                  <img src="assets/img/win-mart/win-mart-4.webp" alt="Win mart" loading="lazy" width="145" height="145">
+                  <div class="win-mart-item-details">
+                    <p>Add to cart</p>
+                    <p>Rs.<span>250</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="win-mart-item">
+                <a href="javascript://">
+                  <img src="assets/img/win-mart/win-mart-7.webp" alt="Win mart" loading="lazy" width="145" height="145">
+                  <div class="win-mart-item-details">
+                    <p>Add to cart</p>
+                    <p>Rs.<span>250</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="win-mart-item">
+                <a href="javascript://">
+                  <img src="assets/img/win-mart/win-mart-5.webp" alt="Win mart" loading="lazy" width="145" height="145">
+                  <div class="win-mart-item-details">
+                    <p>Add to cart</p>
+                    <p>Rs.<span>250</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="win-mart-item">
+                <a href="javascript://">
+                  <img src="assets/img/win-mart/win-mart-1.webp" alt="Win mart" loading="lazy" width="145" height="145">
+                  <div class="win-mart-item-details">
+                    <p>Add to cart</p>
+                    <p>Rs.<span>250</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="win-mart-item">
+                <a href="javascript://">
+                  <img src="assets/img/win-mart/win-mart-2.webp" alt="Win mart" loading="lazy" width="145" height="145">
+                  <div class="win-mart-item-details">
+                    <p>Add to cart</p>
+                    <p>Rs.<span>250</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="win-mart-right-img">
+              <a href="javascrip://">
+                <img src="assets/img/win-mart.jpg" alt="Win mart" loading="lazy" width="474" height="332">
+                <img src="assets/img/win-mart/rectangle.webp" alt="Win mart" loading="lazy" class="triangle-bg" width="230" height="236">
+                <p>
+                  <span>10</span>&nbsp;%
+                  <br>OFF
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- Ends --><!-- New Arrivals bottom -->
+    <section class="new-arrival-bottom-sec">
+      <div class="new-arrival-heading">
+        <h3 class="sub-sec-title">
+          <span>New</span> Arrivals
+        </h3>
+      </div>
+      <div class="new-arrival-bottom-bg">
+        <div class="container">
+          <div class="row">
+            <div class="new-arrival-offer-block">
+              <div class="new-arrival-offer-box">
+                <a href="javascript://">
+                  <div class="save-percentage-box">Save
+                    <br>
+                    <span>10%</span>
+                  </div>
+                  <img src="assets/img/arrival-smart-watch.webp" alt="Product" loading="lazy" width="200" height="247">
+                  <p>Nintendo Switch Console</p>
+                  <div class="offer-product-price">
+                    <h3>Rs <span>65,208</span>
+                    </h3>
+                    <p class="actual-price">Rs.<span>66,000</span>
+                    </p>
+                  </div>
+                  <div class="offer-product-availability">
+                    <p>Already Sold: <span>6</span>
+                    </p>
+                    <p>Available: <span>30</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="new-arrival-offer-box">
+                <a href="javascript://">
+                  <div class="save-percentage-box green">Save
+                    <br>
+                    <span>10%</span>
+                  </div>
+                  <img src="assets/img/arrival-smart-phone.webp" alt="Product" loading="lazy" width="200" height="247">
+                  <p>Nintendo Switch Console</p>
+                  <div class="offer-product-price">
+                    <h3>Rs <span>65,208</span>
+                    </h3>
+                    <p class="actual-price">Rs.<span>66,000</span>
+                    </p>
+                  </div>
+                  <div class="offer-product-availability">
+                    <p>Already Sold: <span>6</span>
+                    </p>
+                    <p>Available: <span>30</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="new-arrival-offer-box">
+                <a href="javascript://">
+                  <div class="save-percentage-box light-green">Save
+                    <br>
+                    <span>10%</span>
+                  </div>
+                  <img src="assets/img/arrival-tv.webp" alt="Product" loading="lazy" width="200" height="247">
+                  <p>Nintendo Switch Console</p>
+                  <div class="offer-product-price">
+                    <h3>Rs <span>65,208</span>
+                    </h3>
+                    <p class="actual-price">Rs.<span>66,000</span>
+                    </p>
+                  </div>
+                  <div class="offer-product-availability">
+                    <p>Already Sold: <span>6</span>
+                    </p>
+                    <p>Available: <span>30</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- Ends -->
+    <section class="last-tab-sec">
+      <div class="container">
+        <div class="row">
+          <div>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#featured-product" role="tab" aria-controls="featured-product" aria-selected="true">
+                  <span>Featured</span> Products
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="onsale-products-tab" data-toggle="tab" href="#onsale-products" role="tab" aria-controls="onsale-products" aria-selected="false">
+                  <span>On Sale</span> Products
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="top-rated-tab" data-toggle="tab" href="#top-rated" role="tab" aria-controls="top-rated" aria-selected="false">
+                  <span>Top Rated</span> Products
+                </a>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="featured-product" role="tabpanel" aria-labelledby="featured-product">
+                <div class="heading-on-mobile">
+                  <h4>
+                    <span>Featured</span> Products
+                  </h4>
+                </div>
+                <div class="product-block">
+                  <div class="two-column-box">
+                    <div class="product-image">
+                      <img src="assets/img/products/product-tv.webp" alt="Product" loading="lazy" width="122" height="99">
+                    </div>
+                    <div class="product-details">
+                      <p>
+                        <small>Bin Bakar Electronics</small>
+                      </p>
+                      <p class="product-name">Samsung 40N5300 S11 Pluse</p>
+                      <div class="product-price">
+                        <p class="actual-price">RS <span>60.000</span>
+                        </p>
+                        <p>RS <span>56.000</span>
+                        </p>
+                      </div>
+                      <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                    </div>
+                  </div>
+                  <div class="two-column-box">
+                    <div class="product-image">
+                      <img src="assets/img/products/product1.webp" alt="Product" loading="lazy" width="122" height="99">
+                    </div>
+                    <div class="product-details">
+                      <p>
+                        <small>Bin Bakar Electronics</small>
+                      </p>
+                      <p class="product-name">Samsung 40N5300 S11 Pluse</p>
+                      <div class="product-price">
+                        <p class="actual-price">RS <span>60.000</span>
+                        </p>
+                        <p>RS <span>56.000</span>
+                        </p>
+                      </div>
+                      <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                    </div>
+                  </div>
+                  <div class="two-column-box">
+                    <div class="product-image">
+                      <img src="assets/img/products/washing-machine.webp" alt="Product" loading="lazy" width="122" height="99">
+                    </div>
+                    <div class="product-details">
+                      <p>
+                        <small>Bin Bakar Electronics</small>
+                      </p>
+                      <p class="product-name">Samsung 40N5300 S11 Pluse</p>
+                      <div class="product-price">
+                        <p class="actual-price">RS <span>60.000</span>
+                        </p>
+                        <p>RS <span>56.000</span>
+                        </p>
+                      </div>
+                      <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                    </div>
+                  </div>
+                  <div class="two-column-box">
+                    <div class="product-image">
+                      <img src="assets/img/products/ac.webp" alt="Product" loading="lazy" width="122" height="99">
+                    </div>
+                    <div class="product-details">
+                      <p>
+                        <small>Bin Bakar Electronics</small>
+                      </p>
+                      <p class="product-name">Samsung 40N5300 S11 Pluse</p>
+                      <div class="product-price">
+                        <p class="actual-price">RS <span>60.000</span>
+                        </p>
+                        <p>RS <span>56.000</span>
+                        </p>
+                      </div>
+                      <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                    </div>
+                  </div>
+                  <div class="two-column-box">
+                    <div class="product-image">
+                      <img src="assets/img/products/air-conditioner.webp" alt="Product" loading="lazy" width="122" height="99">
+                    </div>
+                    <div class="product-details">
+                      <p>
+                        <small>Bin Bakar Electronics</small>
+                      </p>
+                      <p class="product-name">Samsung 40N5300 S11 Pluse</p>
+                      <div class="product-price">
+                        <p class="actual-price">RS <span>60.000</span>
+                        </p>
+                        <p>RS <span>56.000</span>
+                        </p>
+                      </div>
+                      <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                    </div>
+                  </div>
+                  <div class="two-column-box">
+                    <div class="product-image">
+                      <img src="assets/img/products/product2.webp" alt="Product" loading="lazy" width="122" height="99">
+                    </div>
+                    <div class="product-details">
+                      <p>
+                        <small>Bin Bakar Electronics</small>
+                      </p>
+                      <p class="product-name">Samsung 40N5300 S11 Pluse</p>
+                      <div class="product-price">
+                        <p class="actual-price">RS <span>60.000</span>
+                        </p>
+                        <p>RS <span>56.000</span>
+                        </p>
+                      </div>
+                      <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                    </div>
+                  </div>
+                  <div class="two-column-box">
+                    <div class="product-image">
+                      <img src="assets/img/products/drone.webp" alt="Product" loading="lazy" width="122" height="99">
+                    </div>
+                    <div class="product-details">
+                      <p>
+                        <small>Bin Bakar Electronics</small>
+                      </p>
+                      <p class="product-name">Samsung 40N5300 S11 Pluse</p>
+                      <div class="product-price">
+                        <p class="actual-price">RS <span>60.000</span>
+                        </p>
+                        <p>RS <span>56.000</span>
+                        </p>
+                      </div>
+                      <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                    </div>
+                  </div>
+                  <div class="two-column-box">
+                    <div class="product-image">
+                      <img src="assets/img/products/headset.webp" alt="Product" loading="lazy" width="122" height="99">
+                    </div>
+                    <div class="product-details">
+                      <p>
+                        <small>Bin Bakar Electronics</small>
+                      </p>
+                      <p class="product-name">Samsung 40N5300 S11 Pluse</p>
+                      <div class="product-price">
+                        <p class="actual-price">RS <span>60.000</span>
+                        </p>
+                        <p>RS <span>56.000</span>
+                        </p>
+                      </div>
+                      <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                    </div>
+                  </div>
+                  <div class="two-column-box">
+                    <div class="product-image">
+                      <img src="assets/img/products/sec-cam.webp" alt="Product" loading="lazy" width="122" height="99">
+                    </div>
+                    <div class="product-details">
+                      <p>
+                        <small>Bin Bakar Electronics</small>
+                      </p>
+                      <p class="product-name">Samsung 40N5300 S11 Pluse</p>
+                      <div class="product-price">
+                        <p class="actual-price">RS <span>60.000</span>
+                        </p>
+                        <p>RS <span>56.000</span>
+                        </p>
+                      </div>
+                      <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="onsale-products" role="tabpanel" aria-labelledby="onsale-products-tab">
+                <div class="heading-on-mobile">
+                  <h4>
+                    <span>On Sale</span> Products
+                  </h4>
+                </div>
+                <div class="product-block">
+                  <div class="two-column-box">
+                    <div class="product-image">
+                      <img src="assets/img/products/air-conditioner.webp" alt="Product" loading="lazy" width="122" height="99">
+                    </div>
+                    <div class="product-details">
+                      <p>
+                        <small>Bin Bakar Electronics</small>
+                      </p>
+                      <p class="product-name">Samsung 40N5300 S11 Pluse</p>
+                      <div class="product-price">
+                        <p class="actual-price">RS <span>60.000</span>
+                        </p>
+                        <p>RS <span>56.000</span>
+                        </p>
+                      </div>
+                      <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                    </div>
+                  </div>
+                  <div class="two-column-box">
+                    <div class="product-image">
+                      <img src="assets/img/products/product2.webp" alt="Product" loading="lazy" width="122" height="99">
+                    </div>
+                    <div class="product-details">
+                      <p>
+                        <small>Bin Bakar Electronics</small>
+                      </p>
+                      <p class="product-name">Samsung 40N5300 S11 Pluse</p>
+                      <div class="product-price">
+                        <p class="actual-price">RS <span>60.000</span>
+                        </p>
+                        <p>RS <span>56.000</span>
+                        </p>
+                      </div>
+                      <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                    </div>
+                  </div>
+                  <div class="two-column-box">
+                    <div class="product-image">
+                      <img src="assets/img/products/product-tv.webp" alt="Product" loading="lazy" width="122" height="99">
+                    </div>
+                    <div class="product-details">
+                      <p>
+                        <small>Bin Bakar Electronics</small>
+                      </p>
+                      <p class="product-name">Samsung 40N5300 S11 Pluse</p>
+                      <div class="product-price">
+                        <p class="actual-price">RS <span>60.000</span>
+                        </p>
+                        <p>RS <span>56.000</span>
+                        </p>
+                      </div>
+                      <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                    </div>
+                  </div>
+                  <div class="two-column-box">
+                    <div class="product-image">
+                      <img src="assets/img/products/product1.webp" alt="Product" loading="lazy" width="122" height="99">
+                    </div>
+                    <div class="product-details">
+                      <p>
+                        <small>Bin Bakar Electronics</small>
+                      </p>
+                      <p class="product-name">Samsung 40N5300 S11 Pluse</p>
+                      <div class="product-price">
+                        <p class="actual-price">RS <span>60.000</span>
+                        </p>
+                        <p>RS <span>56.000</span>
+                        </p>
+                      </div>
+                      <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                    </div>
+                  </div>
+                  <div class="two-column-box">
+                    <div class="product-image">
+                      <img src="assets/img/products/washing-machine.webp" alt="Product" loading="lazy" width="122" height="99">
+                    </div>
+                    <div class="product-details">
+                      <p>
+                        <small>Bin Bakar Electronics</small>
+                      </p>
+                      <p class="product-name">Samsung 40N5300 S11 Pluse</p>
+                      <div class="product-price">
+                        <p class="actual-price">RS <span>60.000</span>
+                        </p>
+                        <p>RS <span>56.000</span>
+                        </p>
+                      </div>
+                      <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                    </div>
+                  </div>
+                  <div class="two-column-box">
+                    <div class="product-image">
+                      <img src="assets/img/products/headset.webp" alt="Product" loading="lazy" width="122" height="99">
+                    </div>
+                    <div class="product-details">
+                      <p>
+                        <small>Bin Bakar Electronics</small>
+                      </p>
+                      <p class="product-name">Samsung 40N5300 S11 Pluse</p>
+                      <div class="product-price">
+                        <p class="actual-price">RS <span>60.000</span>
+                        </p>
+                        <p>RS <span>56.000</span>
+                        </p>
+                      </div>
+                      <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                    </div>
+                  </div>
+                  <div class="two-column-box">
+                    <div class="product-image">
+                      <img src="assets/img/products/sec-cam.webp" alt="Product" loading="lazy" width="122" height="99">
+                    </div>
+                    <div class="product-details">
+                      <p>
+                        <small>Bin Bakar Electronics</small>
+                      </p>
+                      <p class="product-name">Samsung 40N5300 S11 Pluse</p>
+                      <div class="product-price">
+                        <p class="actual-price">RS <span>60.000</span>
+                        </p>
+                        <p>RS <span>56.000</span>
+                        </p>
+                      </div>
+                      <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                    </div>
+                  </div>
+                  <div class="two-column-box">
+                    <div class="product-image">
+                      <img src="assets/img/products/ac.webp" alt="Product" loading="lazy" width="122" height="99">
+                    </div>
+                    <div class="product-details">
+                      <p>
+                        <small>Bin Bakar Electronics</small>
+                      </p>
+                      <p class="product-name">Samsung 40N5300 S11 Pluse</p>
+                      <div class="product-price">
+                        <p class="actual-price">RS <span>60.000</span>
+                        </p>
+                        <p>RS <span>56.000</span>
+                        </p>
+                      </div>
+                      <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                    </div>
+                  </div>
+                  <div class="two-column-box">
+                    <div class="product-image">
+                      <img src="assets/img/products/drone.webp" alt="Product" loading="lazy" width="122" height="99">
+                    </div>
+                    <div class="product-details">
+                      <p>
+                        <small>Bin Bakar Electronics</small>
+                      </p>
+                      <p class="product-name">Samsung 40N5300 S11 Pluse</p>
+                      <div class="product-price">
+                        <p class="actual-price">RS <span>60.000</span>
+                        </p>
+                        <p>RS <span>56.000</span>
+                        </p>
+                      </div>
+                      <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="top-rated" role="tabpanel" aria-labelledby="top-rated-tab">
+                <div class="heading-on-mobile">
+                  <h4>
+                    <span>Top Rated</span> Products
+                  </h4>
+                </div>
+                <div class="product-block">
+                  <div class="two-column-box">
+                    <div class="product-image">
+                      <img src="assets/img/products/ac.webp" alt="Product" loading="lazy" width="122" height="99">
+                    </div>
+                    <div class="product-details">
+                      <p>
+                        <small>Bin Bakar Electronics</small>
+                      </p>
+                      <p class="product-name">Samsung 40N5300 S11 Pluse</p>
+                      <div class="product-price">
+                        <p class="actual-price">RS <span>60.000</span>
+                        </p>
+                        <p>RS <span>56.000</span>
+                        </p>
+                      </div>
+                      <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                    </div>
+                  </div>
+                  <div class="two-column-box">
+                    <div class="product-image">
+                      <img src="assets/img/products/drone.webp" alt="Product" loading="lazy" width="122" height="99">
+                    </div>
+                    <div class="product-details">
+                      <p>
+                        <small>Bin Bakar Electronics</small>
+                      </p>
+                      <p class="product-name">Samsung 40N5300 S11 Pluse</p>
+                      <div class="product-price">
+                        <p class="actual-price">RS <span>60.000</span>
+                        </p>
+                        <p>RS <span>56.000</span>
+                        </p>
+                      </div>
+                      <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                    </div>
+                  </div>
+                  <div class="two-column-box">
+                    <div class="product-image">
+                      <img src="assets/img/products/air-conditioner.webp" alt="Product" loading="lazy" width="122" height="99">
+                    </div>
+                    <div class="product-details">
+                      <p>
+                        <small>Bin Bakar Electronics</small>
+                      </p>
+                      <p class="product-name">Samsung 40N5300 S11 Pluse</p>
+                      <div class="product-price">
+                        <p class="actual-price">RS <span>60.000</span>
+                        </p>
+                        <p>RS <span>56.000</span>
+                        </p>
+                      </div>
+                      <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                    </div>
+                  </div>
+                  <div class="two-column-box">
+                    <div class="product-image">
+                      <img src="assets/img/products/product2.webp" alt="Product" loading="lazy" width="122" height="99">
+                    </div>
+                    <div class="product-details">
+                      <p>
+                        <small>Bin Bakar Electronics</small>
+                      </p>
+                      <p class="product-name">Samsung 40N5300 S11 Pluse</p>
+                      <div class="product-price">
+                        <p class="actual-price">RS <span>60.000</span>
+                        </p>
+                        <p>RS <span>56.000</span>
+                        </p>
+                      </div>
+                      <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                    </div>
+                  </div>
+                  <div class="two-column-box">
+                    <div class="product-image">
+                      <img src="assets/img/products/product-tv.webp" alt="Product" loading="lazy" width="122" height="99">
+                    </div>
+                    <div class="product-details">
+                      <p>
+                        <small>Bin Bakar Electronics</small>
+                      </p>
+                      <p class="product-name">Samsung 40N5300 S11 Pluse</p>
+                      <div class="product-price">
+                        <p class="actual-price">RS <span>60.000</span>
+                        </p>
+                        <p>RS <span>56.000</span>
+                        </p>
+                      </div>
+                      <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                    </div>
+                  </div>
+                  <div class="two-column-box">
+                    <div class="product-image">
+                      <img src="assets/img/products/product1.webp" alt="Product" loading="lazy" width="122" height="99">
+                    </div>
+                    <div class="product-details">
+                      <p>
+                        <small>Bin Bakar Electronics</small>
+                      </p>
+                      <p class="product-name">Samsung 40N5300 S11 Pluse</p>
+                      <div class="product-price">
+                        <p class="actual-price">RS <span>60.000</span>
+                        </p>
+                        <p>RS <span>56.000</span>
+                        </p>
+                      </div>
+                      <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                    </div>
+                  </div>
+                  <div class="two-column-box">
+                    <div class="product-image">
+                      <img src="assets/img/products/washing-machine.webp" alt="Product" loading="lazy" width="122" height="99">
+                    </div>
+                    <div class="product-details">
+                      <p>
+                        <small>Bin Bakar Electronics</small>
+                      </p>
+                      <p class="product-name">Samsung 40N5300 S11 Pluse</p>
+                      <div class="product-price">
+                        <p class="actual-price">RS <span>60.000</span>
+                        </p>
+                        <p>RS <span>56.000</span>
+                        </p>
+                      </div>
+                      <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                    </div>
+                  </div>
+                  <div class="two-column-box">
+                    <div class="product-image">
+                      <img src="assets/img/products/headset.webp" alt="Product" loading="lazy" width="122" height="99">
+                    </div>
+                    <div class="product-details">
+                      <p>
+                        <small>Bin Bakar Electronics</small>
+                      </p>
+                      <p class="product-name">Samsung 40N5300 S11 Pluse</p>
+                      <div class="product-price">
+                        <p class="actual-price">RS <span>60.000</span>
+                        </p>
+                        <p>RS <span>56.000</span>
+                        </p>
+                      </div>
+                      <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                    </div>
+                  </div>
+                  <div class="two-column-box">
+                    <div class="product-image">
+                      <img src="assets/img/products/sec-cam.webp" alt="Product" loading="lazy" width="122" height="99">
+                    </div>
+                    <div class="product-details">
+                      <p>
+                        <small>Bin Bakar Electronics</small>
+                      </p>
+                      <p class="product-name">Samsung 40N5300 S11 Pluse</p>
+                      <div class="product-price">
+                        <p class="actual-price">RS <span>60.000</span>
+                        </p>
+                        <p>RS <span>56.000</span>
+                        </p>
+                      </div>
+                      <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                    </div>
+                  </div>
+                  <div class="two-column-box">
+                    <div class="product-image">
+                      <img src="assets/img/products/ac.webp" alt="Product" loading="lazy" width="122" height="99">
+                    </div>
+                    <div class="product-details">
+                      <p>
+                        <small>Bin Bakar Electronics</small>
+                      </p>
+                      <p class="product-name">Samsung 40N5300 S11 Pluse</p>
+                      <div class="product-price">
+                        <p class="actual-price">RS <span>60.000</span>
+                        </p>
+                        <p>RS <span>56.000</span>
+                        </p>
+                      </div>
+                      <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                    </div>
+                  </div>
+                  <div class="two-column-box">
+                    <div class="product-image">
+                      <img src="assets/img/products/drone.webp" alt="Product" loading="lazy" width="122" height="99">
+                    </div>
+                    <div class="product-details">
+                      <p>
+                        <small>Bin Bakar Electronics</small>
+                      </p>
+                      <p class="product-name">Samsung 40N5300 S11 Pluse</p>
+                      <div class="product-price">
+                        <p class="actual-price">RS <span>60.000</span>
+                        </p>
+                        <p>RS <span>56.000</span>
+                        </p>
+                      </div>
+                      <a href="javascript://" class="add-cart-card-btn">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container-fluid footer-bg">
+      <div class="container">
+        <div class="footer-sec">
+          <div class="footer-links-sec">
+            <div class="footer-company-details">
+              <div class="nav-logo">
+                <a href="/">
+                  <img src="assets/img/winstore-logo.svg" alt="Win Store Logo" loading="lazy" width="170" height="48">
+                </a>
+              </div>
+              <p>Got questions? Call us 24/7!</p>
+              <p>
+                <a href="tel:03111666144">03 111 666 144</a>
+                <br>
+                <a href="tel:03171777015">03 171 777 015</a>
+              </p>
+              <p class="contact-mail">Contact info
+                <br>
+                <a href="mailto:info@winstore.pk">info@winstore.pk</a>
+              </p>
+              <p class="footer-sm">
+                <span>
+                  <a class="footer-sm-link" href="#" target="_blank" aria-label="Footer links">
+                    <i class="icon-fb" aria-hidden="true"></i>
+                  </a>
+                </span>
+                <span>
+                  <a class="footer-sm-link" href="#" target="_blank" aria-label="Footer links">
+                    <i class="icon-twitter" aria-hidden="true"></i>
+                  </a>
+                </span>
+                <span>
+                  <a class="footer-sm-link" href="#" target="_blank" aria-label="Footer links">
+                    <i class="icon-instagram" aria-hidden="true"></i>
+                  </a>
+                </span>
+                <span>
+                  <a class="footer-sm-link" href="#" target="_blank" aria-label="Footer links">
+                    <i class="icon-linkedin" aria-hidden="true"></i>
+                  </a>
+                </span>
+              </p>
+            </div>
+            <div class="footer-links">
+              <p>Trending</p>
+              <p>
+                <a href="javascript://" aria-label="Footer links">Installments</a>
+              </p>
+              <p>
+                <a href="javascript://" aria-label="Footer links">Electronics</a>
+              </p>
+              <p>
+                <a href="javascript://" aria-label="Footer links">Grocery</a>
+              </p>
+              <p>
+                <a href="javascript://" aria-label="Footer links">Health & Beauty</a>
+              </p>
+              <p>
+                <a href="javascript://" aria-label="Footer links">Home Appliances</a>
+              </p>
+              <p>
+                <a href="javascript://" aria-label="Footer links">Mobile Accessories</a>
+              </p>
+            </div>
+            <div class="footer-links">
+              <p>Information</p>
+              <p>
+                <a href="javascript://" aria-label="Footer links">About Us</a>
+              </p>
+              <p>
+                <a href="javascript://" aria-label="Footer links">Contact Us</a>
+              </p>
+              <p>
+                <a href="javascript://" aria-label="Footer links">FAQs</a>
+              </p>
+              <p>
+                <a href="javascript://" aria-label="Footer links">Shipping & Return</a>
+              </p>
+              <p>
+                <a href="javascript://" aria-label="Footer links">Privacy policy</a>
+              </p>
+              <p>
+                <a href="javascript://" aria-label="Footer links">Terms & Conditions</a>
+              </p>
+            </div>
+            <div class="footer-links">
+              <p>Customer Care</p>
+              <p>
+                <a href="javascript://" aria-label="Footer links">My Account</a>
+              </p>
+              <p>
+                <a href="javascript://" aria-label="Footer links">Track Your Order</a>
+              </p>
+              <p>
+                <a href="javascript://" aria-label="Footer links">Recently Viewed</a>
+              </p>
+              <p>
+                <a href="javascript://" aria-label="Footer links">Wishlist</a>
+              </p>
+              <p>
+                <a href="javascript://" aria-label="Footer links">Compare</a>
+              </p>
+              <p>
+                <a href="javascript://" aria-label="Footer links">Become a Vendor</a>
+              </p>
+            </div>
+          </div>
+          <div class="purchase-cards">
+            <img src="assets/img/visa-card.webp" alt="Visa card" loading="lazy" width="97" height="55">
+            <img src="assets/img/maser-card.webp" alt="Master card" loading="lazy" width="97" height="55">
+            <img src="assets/img/cash-card.webp" alt="Cash card" loading="lazy" width="97" height="55">
+            <img src="assets/img/installment-card.webp" alt="Easy installment" loading="lazy" width="97" height="55">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid copyright-bg">
+      <div class="container">
+        <div>
+          <p>© 2021 Winstore. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script defer="defer" src="assets/js/jquery.min.js"></script><!-- <script defer src="assets/js/swiper.min.js"></script> -->
+  <script defer="defer" src="assets/js/plugins.min.js"></script><!-- <script defer src="assets/js/slick.min.js"></script> -->
+  <script defer="defer" src="assets/js/app.min.js"></script>
+</body>
+
+</html>
